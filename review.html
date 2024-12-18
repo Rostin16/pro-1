@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reviews - Elegant Jewelry</title>
+    <style>
+       
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #fafafa;
+            color: #333;
+        }
+
+        .navbar {
+            background-color: #333;
+            padding: 15px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .navbar .logo {
+            color: #f1f1f1;
+            font-size: 2rem;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .navbar .menu {
+            list-style-type: none;
+            display: flex;
+            gap: 25px;
+        }
+
+        .navbar .menu li {
+            display: inline;
+        }
+
+        .navbar .menu a {
+            color: #f1f1f1;
+            text-decoration: none;
+            font-size: 1rem;
+            transition: color 0.3s;
+        }
+
+        .navbar .menu a:hover {
+            color: #e0b0ff;
+        }
+
+        /* Header Section */
+        .header {
+            background-color: #f8f8f8;
+            color: #222;
+            padding: 80px 0;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+        }
+
+        .header h1 {
+            font-size: 3.5rem;
+            margin-bottom: 15px;
+            color: #4e4e4e;
+        }
+
+        .header p {
+            font-size: 1.2rem;
+            color: #777;
+        }
+
+        /* Review Section */
+        .review-container {
+            max-width: 900px;
+            margin: 50px auto;
+            padding: 30px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .review-container h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .review {
+            display: flex;
+            margin-bottom: 20px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 15px;
+        }
+
+        .review img {
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+            object-fit: cover;
+            margin-right: 15px;
+        }
+
+        .review .content {
+            flex-grow: 1;
+        }
+
+        .review .name {
+            font-weight: bold;
+            font-size: 1.2rem;
+            color: #444;
+        }
+
+        .review .rating {
+            color: #e0b0ff;
+            font-size: 1.2rem;
+        }
+
+        .review .text {
+            font-size: 1rem;
+            color: #666;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar Section -->
+    <div class="navbar">
+        <a href="#" class="logo">Elegant Jewelry</a>
+        <ul class="menu">
+          <li><a href="/">Home</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/contact">Contact</a></li>
+          <li><a href="/review">Review</a></li>
+        </ul>
+    </div>
+
+    <!-- Header Section -->
+    <div class="header">
+        <h1>Customer Reviews</h1>
+        <p>See what our customers are saying about us!</p>
+    </div>
+
+    <!-- Review Section -->
+    <div class="review-container">
+        <h2>What Our Customers Say</h2>
+
+        <div class="review">
+            <img src="https://via.placeholder.com/60" alt="Customer 1">
+            <div class="content">
+                <div class="name">Jane Doe</div>
+                <div class="rating">★★★★★</div>
+                <div class="text">"I absolutely love the jewelry! The quality is amazing and the designs are stunning. Highly recommend!"</div>
+            </div>
+        </div>
+
+        <div class="review">
+            <img src="https://via.placeholder.com/60" alt="Customer 2">
+            <div class="content">
+                <div class="name">John Smith</div>
+                <div class="rating">★★★★★</div>
+                <div class="text">"Beautiful products and excellent customer service. Will definitely be coming back for more!"</div>
+            </div>
+        </div>
+
+        <!-- Add more reviews as needed -->
+    </div>
+
+</body>
+</html>
